@@ -15,7 +15,7 @@ int main(){
         dt.data = 0;
         T=AVLInsert(T, dt);
     }
-    AVLprint(T);
+    AVLprint(T);//此处使用中序遍历验证树是否按照从小到大排序。
     printf("\n");
     dt.key = 5;
     dt.data = 0;
